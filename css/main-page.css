@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  background-color: blue;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+}
+
+.header img {
+  height: 50px;
+  width: auto;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.main-conteiner {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(185, 185, 241);
+  margin: 50px;
+  padding: 50px;
+  gap: 20px;
+}
+
+.second-conteiner {
+  background-color: rgb(178, 210, 238);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.nameText {
+  width: 800px;
+  height: 35px;
+  border: solid grey 1px;
+}
+
+.nameCity {
+  width: 300px;
+  height: 35px;
+}
+
+.second-conteiner button {
+  width: 300px;
+  height: 50px;
+}
+
+.third-conteiner {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(228, 243, 237);
+}
+
+.third-conteiner-in {
+  display: flex;
+  flex-direction: row;
+  border-color: brown;
+}
+
+.photo-conteiner {
+  width: 50%;
+  border: black solid 2px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.text-conteiner {
+  width: 50%;
+  border: black solid 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.photo-conteiner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.comment-conteiner {
+  border: black solid 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.comment-conteiner input {
+  width: 300px;
+  height: 100px;
+}
